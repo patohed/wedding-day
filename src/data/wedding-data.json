@@ -1,0 +1,52 @@
+{
+  "event": {
+    "id": "wedding-2025",
+    "title": "La Boda de Ana & Carlos",
+    "groomName": "Carlos",
+    "brideName": "Ana",
+    "date": "2025-06-15",
+    "time": "18:00",
+    "venue": {
+      "name": "Salón Real Palace",
+      "address": "Av. Libertador 1234",
+      "city": "Buenos Aires",
+      "coordinates": {
+        "lat": -34.6037,
+        "lng": -58.3816
+      }
+    },
+    "reception": {
+      "time": "20:00",
+      "venue": "Salón Real Palace",
+      "address": "Av. Libertador 1234"
+    },
+    "dressCode": "Formal / Cocktail",
+    "contactInfo": {
+      "phone": "+54 11 1234-5678",
+      "email": "novios@wedding2025.com",
+      "whatsapp": "+54 11 1234-5678"
+    },
+    "rsvpDeadline": "2025-05-15",
+    "maxGuests": 1000,
+    "isActive": true,
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z"
+  },
+  "guests": [],
+  "familyGroups": [],
+  "stats": {
+    "totalInvited": 0,
+    "totalConfirmed": 0,
+    "totalDeclined": 0,
+    "pending": 0,
+    "menuBreakdown": {
+      "traditional": 0,
+      "vegetarian": 0,
+      "gluten-free": 0,
+      "allergic-custom": 0
+    },
+    "familyGroups": 0,
+    "totalGuests": 0,
+    "lastUpdated": "2025-01-01T00:00:00.000Z"
+  }
+}
