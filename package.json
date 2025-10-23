@@ -1,12 +1,45 @@
 {
-  "name": "wedding-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "wedding-day",
+  "version": "1.0.0",
+  "description": "A modern, customizable digital wedding invitation app built with Next.js 15, TypeScript, and beautiful glassmorphism UI",
+  "private": false,
+  "author": {
+    "name": "Wedding Day Team",
+    "email": "hello@wedding-day.dev",
+    "url": "https://wedding-day.dev"
+  },
+  "homepage": "https://github.com/patohed/wedding-day",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patohed/wedding-day.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patohed/wedding-day/issues"
+  },
+  "keywords": [
+    "wedding",
+    "invitation",
+    "digital",
+    "rsvp",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "responsive",
+    "glassmorphism",
+    "modern"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "type-check": "tsc --noEmit",
+    "test": "echo \"No tests specified yet\" && exit 0",
+    "preview": "npm run build && npm run start",
+    "clean": "rm -rf .next && rm -rf out",
+    "analyze": "ANALYZE=true npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
